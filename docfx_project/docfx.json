@@ -3,7 +3,7 @@
     {
       "src": [
         {
-		  "src": "..",
+		  "src": "../",
           "files": [
             "**.cs"
           ],
@@ -20,6 +20,9 @@
     }
   ],
   "build": {
+	"sitemap":{
+        "baseUrl": "https://lachee.github.io/discord-rpc-csharp/docs"
+	},
     "content": [
       {
         "files": [
@@ -63,7 +66,7 @@
         ]
       }
     ],
-    "dest": "_site",
+    "dest": "../docs",
 	"globalMetadata": {
 	  "_appFooter": "© 2019 Lachee"
 	},
